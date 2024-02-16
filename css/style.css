@@ -83,8 +83,21 @@ button:focus {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.about_img {
+  margin-left: 300px;
+  width: 3000px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+   /* Adjust this value as needed */
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden; /* This ensures horizontal scrolling is disabled */
+}
+
+
 .section_gap {
-  padding: 200px 0; }
+  padding: 50px 100px; }
   @media (max-width: 1199px) {
     .section_gap {
       padding: 80px 0; } }
@@ -96,7 +109,7 @@ button:focus {
       padding-top: 80px; } }
 
 .section_gap_bottom {
-  padding-bottom: 200px; }
+  padding-bottom: 500px; }
   @media (max-width: 1199px) {
     .section_gap_bottom {
       padding-bottom: 80px; } }
@@ -344,7 +357,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  /* background: url(../img/banner/home-banner.png) no-repeat top center; */
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
@@ -2608,6 +2621,7 @@ h6 {
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
+  padding-top: 100px ;
   padding-bottom: 120px; }
   @media (max-width: 991px) {
     .portfolio_area {
